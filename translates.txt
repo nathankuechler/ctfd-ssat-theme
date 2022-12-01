@@ -1,0 +1,229 @@
+base.html:
+  Powered by CTFd
+challenge.html:
+  Challenge
+  Solves
+  View Hint
+  Unlock Hint for
+  points
+  View Hint
+  Submit
+  Name
+  Date
+challenges.html
+  Challenges
+components/navbar.html
+  Users
+  Teams
+  Scoreboard
+  Challenges
+  Admin Panel
+  Notifications
+  Team
+  Profile
+  Settings
+  Logout
+  Register
+  Login
+config.html
+  Challenge Window Size
+  Small
+  Normal
+  Large
+  Extra Large
+  Update
+confirm.html
+  Confirm
+  We've sent a confirmation email to your email address.
+  Please click the link in that email to confirm your account.
+  If the email doesn't arrive, check your spam folder or contact an administrator to manually verify your account.
+  Change Email Address
+errors/403.html
+  Forbidden
+errors/404.html
+  File not found
+  Sorry about that
+errors/429.html
+  Too many requests
+  Please slow down!
+errors/502.html
+  Bad Gateway
+login.html
+  Login
+  Login with Major League Cyber
+  Forgot your password?
+macros/forms.html
+  Optional
+notifications.html
+  Notifications
+  There are no notifications yet
+register.html
+  Register
+  Login with Major League Cyber
+  Your username on the site
+  Never shown to the public
+  Password used to log into your account
+  By registering, you agree to the
+  privacy policy
+  and
+  terms of service
+reset_password.html
+  Reset Password
+  You can now reset the password for your account and log in. Please enter in a new password below.
+  Please provide the email address associated with your account below.
+scoreboard.html
+  Scoreboard
+  Place
+  Score
+  Official
+settings.html
+  Settings
+  Profile
+  Access Tokens
+  Active Tokens
+  Created
+  Expiration
+  Delete
+setup.html
+  Setup
+  General
+  Mode
+  Administration
+  Style
+  Date & Time
+  Integrations
+  Next
+  Participants register accounts and form teams
+  If a team member solves a challenge, the entire team receives credit
+  Easier to see which team member solved a challenge
+  May be slightly more difficult to administer
+  Participants only register an individual account
+  Players can share accounts to form pseudo-teams
+  Easier to organize
+  Difficult to attribute solutions to individual team members
+  Next
+  Subscribe email address to the CTFd LLC Newsletter for news and updates
+  Next
+  Reset
+  Next
+  Date
+  Time
+  UTC Preview
+  Date
+  Time
+  UTC Preview
+  Next
+  MayorLeagueCyber Integration
+  MajorLeagueCyber (MLC) is a cyber security event tracker written and maintained by the developers of CTFd.
+  Set up MLC integration to:
+  display your event on the MLC website and mailing list
+  share and track participant statistics
+  provide live updates in team Slack or Discord groups
+  archive challenges, team participation & more
+  Setup
+teams/invite.html
+  Join Team
+  Welcome to
+  Click the button below to join the team!
+  Or
+  click here
+  if you'd prefer to create your own team.
+teams/join_team.html
+  Join Team
+teams/new_team.html
+  Create Team
+  After creating your team, share the team name and password with your teammates so they can join your team.
+teams/private.html
+  Edit Team
+  Choose Captain
+  Invite Users
+  Share this link with your team members for them to join your team
+  Invite links can be re-used and expire after 1 day
+  Official
+  This intentionally hides the team's place when scores are hidden because this can be their internal profile and we don't want to leak their place in the CTF.
+  Public page hiding is done at the route level
+  place
+  points
+  Members
+  User Name
+  Score
+  Captain
+  Awards
+  Solves
+  Challenge
+  Category
+  Value
+  Time
+  No solves yet
+teams/public.html
+  Official
+  This intentionally hides the team's place when scores are hidden because this can be their internal profilfe and we don't want to leak their place in the CTF.
+  Public page hiding is done at the route level
+  place
+  points
+  Members
+  User Name
+  Score
+  Awards
+  Solves
+  Challenge
+  Category
+  Value
+  Time
+  No solves yet
+teams/team_enrollment.html
+  Team
+  Welcome to
+  In order to participate you must either join or create a team.
+  Play with Official Team
+  Join Unofficial Team
+  Create Unofficial Team
+  Join Team
+  Create Team
+teams/teams.html
+  Teams
+  Searching for reams with
+  matching
+  Page
+  of
+  results
+  Search for matching teams
+  Team
+  Website
+  Affiliation
+  Country
+  Official
+  Page
+users/private.html
+  Official
+  place
+  points
+  Awards
+  Solves
+  Challenge
+  Category
+  Value
+  Time
+  No solves yet
+users/public.html
+  Official
+  Awards
+  Challenge
+  Category
+  Value
+  Time
+  No solves yet
+users/users.html
+  Users
+  Searching for users with
+  matching
+  Page
+  of
+  results
+  Search for matching users
+  User
+  Website
+  Affiliation
+  Country
+  Official
+  Page

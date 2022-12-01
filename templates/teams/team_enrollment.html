@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block content %}
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Team</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <p>Willkommen bei {{ Configs.ctf_name }}!</p>
+        <p>Um teilzunehmen musst du ein Team erstellen oder einem Team beitreten</p>
+      </div>
+    </div>
+    {% if integrations.mlc() %}
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <a class="btn btn-primary w-100" href="{{ url_for('auth.oauth_login') }}">Mit offiziellem Team teilnehmen</a>
+      </div>
+    </div>
+    <div class="row pt-3">
+      <div class="col-md-3 offset-md-3 text-center">
+        <a class="btn btn-light w-100" href="{{ url_for('teams.join') }}">Inoffiziellem Team beitreten</a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a class="btn btn-light w-100" href="{{ url_for('teams.new') }}">Inoffizielles Team erstellen</a>
+      </div>
+    </div>
+    {% else %}
+    <div class="row pt-3">
+      <div class="col-md-3 offset-md-3 text-center">
+        <a class="btn btn-primary w-100" href="{{ url_for('teams.join') }}">Team beitreten</a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a class="btn btn-primary w-100" href="{{ url_for('teams.new') }}">Team erstellen</a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
